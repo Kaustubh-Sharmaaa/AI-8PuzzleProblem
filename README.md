@@ -10,10 +10,11 @@ each implementing a different search algorithm.
 ## Running The Program
 
 To run the code type:
-python3 expense_8_puzzle.py start.txt goal.txt <method> <dump_flag>
 
-<start-file> and <goal-file> are required.
-<method> can be: 
+> python3 expense_8_puzzle.py start.txt goal.txt '<method>' '<dump_flag>'
+
+'<start-file>' and '<goal-file>' are required.
+'<method>' can be: 
 
     bfs - Breadth First Search
 
@@ -30,5 +31,5 @@ python3 expense_8_puzzle.py start.txt goal.txt <method> <dump_flag>
     star - A* Search (Note: if no <method> is given, this is considered to be the default option)
 
 
-If <dump-flag>  is given as true, search trace is dumped for analysis in trace-<date>-<time>.txt 
-(Note: if <dump-flag> is not given, it is assumed to be false)
+If '<dump-flag>'  is given as true, search trace is dumped for analysis. 
+(Note: if '<dump-flag>' is not given, it is assumed to be false)
